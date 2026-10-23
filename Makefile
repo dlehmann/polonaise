@@ -37,6 +37,7 @@ build/polonaise-exo.prg: build/polonaise.prg
 build/polonaise.d64: build/polonaise-exo.prg tools/mkd64.py
 	$(PY) tools/mkd64.py build/polonaise.d64 "POLONAISE" "PL" build/polonaise-exo.prg:POLONAISE
 	cp build/polonaise.d64 polonaise.d64
+	cp build/polonaise.d64 docs/polonaise.d64
 
 clean:
 	rm -rf build gen
