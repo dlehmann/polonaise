@@ -76,7 +76,8 @@ frame.
 ## The web page
 
 `docs/` is also the project's GitHub Pages site: `docs/index.html` (in the style of the 1988 ad),
-`docs/impressum.html` (legal notice and privacy policy, in German), the screenshots, the fonts
+`docs/impressum.html` (legal notice and privacy policy, in German), the favicon (a mirror ball,
+drawn by `tools/favicon.py`), the screenshots, the fonts
 (Fira Sans Compressed and Condensed, Press Start 2P – all SIL Open Font License, served from the
 site itself) and a copy of the disk, `docs/polonaise.d64`, which `make` keeps up to date.
 To publish it: in the repository settings under *Pages*, choose *Deploy from a branch*, the
