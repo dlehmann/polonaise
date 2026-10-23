@@ -23,7 +23,7 @@ import sys
 
 from PIL import Image, ImageDraw, ImageFont
 
-SRC = sys.argv[1] if len(sys.argv) > 1 else '/home/dennis/Projekte/polonaise'
+SRC = sys.argv[1] if len(sys.argv) > 1 else '/home/dennis/Projekte/polonaise-c64'
 OUT = sys.argv[2] if len(sys.argv) > 2 else 'gen'
 
 # Pepto palette
