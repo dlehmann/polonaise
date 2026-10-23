@@ -1,6 +1,6 @@
 // js_game.mjs - runs game.ts of the browser version tick by tick for logic_test.py.
 // stdin: "new <seed>" or "<dir> <a>" per line; stdout: the state as JSON per line.
-import { Game } from '../../polonaise-c64/src/game.ts';
+import { Game } from '../../polonaise-remake/src/game.ts';
 import * as readline from 'node:readline';
 
 let g = null;

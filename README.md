@@ -2,7 +2,7 @@
 
 ![Polonaise – box, manual and disk](docs/packshot.webp)
 
-The disco conga line to dance along with – the browser version (`../polonaise-c64`) as a real C64 program,
+The disco conga line to dance along with – the browser version (`../polonaise-remake`) as a real C64 program,
 on a D64 disk image for emulators and original hardware.
 
 *(The box, the manual and Discoware are made up – there never was a release in 1988. The game on the disk is real.)*
@@ -97,7 +97,7 @@ make
 `make` generates the files in `gen/` from `tools/gfx.py` (graphics, character set, sprites),
 `tools/text.py` (texts) and `tools/music.py` (music, effects), assembles `src/main.s` into
 `build/polonaise.prg`, packs it with Exomizer and writes `build/polonaise.d64`
-(`tools/mkd64.py`). The source of the font (Press Start 2P) is `../polonaise-c64`.
+(`tools/mkd64.py`). The source of the font (Press Start 2P) is `../polonaise-remake`.
 
 | File              | Contents                                                               |
 |-------------------|------------------------------------------------------------------------|

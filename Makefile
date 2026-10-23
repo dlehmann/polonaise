@@ -2,7 +2,7 @@
 CC65 = tools/cc65/bin
 EXO = tools/exomizer/src/exomizer
 PY = tools/venv/bin/python
-SRC = ../polonaise-c64
+SRC = ../polonaise-remake
 
 GEN = gen/gfx.inc gen/text.inc gen/music.inc
 ASM = $(wildcard src/*.s src/*.inc)
